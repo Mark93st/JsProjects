@@ -18,5 +18,3 @@ console.log("Div positive by zero: ", (12/0))
 console.log("Div negative by zero: ", (-12/0))
 
 console.log("10/3 = ", (10/3).toFixed(2))
-
-

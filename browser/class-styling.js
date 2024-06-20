@@ -1,6 +1,6 @@
 const containerDOM = document.getElementById('container')
-const cls = ['container', 'text-align']
-
+//const cls = ['container', 'text-align']
 // containerDOM.classList.add('container, text-center')
-containerDOM.classList.add(...cls)
+
+containerDOM.classList.add('container', 'text-center')
 containerDOM.innerHTML = "<p>Hello CSS Styling through JS</p>"

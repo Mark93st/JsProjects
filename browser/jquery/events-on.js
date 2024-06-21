@@ -1,7 +1,5 @@
 $(function() {
-    $('#btn').click(function() {
-        changeBg()
-    })
+    $('#btn').on('click', () => changeBg())
 })
 
 function changeBg() {
